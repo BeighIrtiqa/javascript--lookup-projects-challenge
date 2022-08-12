@@ -19,8 +19,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
-    /* background: #3b3a30; */
-    /* background:linear-gradient(90deg,#77a8a8,#e4d1d1); */
+    
 }
 h1 {
     margin-top: 10px;
@@ -41,6 +40,7 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
+    margin-top: 5px;
     /* border-radius: 5px; */
     padding: 12px 36px;
     border-radius: 40px;
