@@ -15,12 +15,12 @@ body{
 }
 .container1{
     display: flex;
-    background: red;
+    background: #1B244A;
     height: 240px;
 }
 .home{
     width:287.5px;
-    background: green;
+    background: #1B244A;
 
     
 }
@@ -57,7 +57,7 @@ color: #F94F6D;
 
 .away{
     width: 287.5px;
-    background: yellow;
+    background: #1B244A;
 }
 .txtaway{
     height: 60px;
@@ -170,7 +170,22 @@ display: flex;
    position: relative;
    z-index: 1;
 }
-.timer{
+
+
+
+#timer{
     width: 191.6px;
     border:1px solid;
+    background: #1B244A;
+    justify-content: center;
+    padding-top: 10px;
+    
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+
 }
