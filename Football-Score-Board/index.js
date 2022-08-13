@@ -11,3 +11,19 @@ function updateCountdown() {
     countdownEl.innerHTML = `${minutes}:${seconds}`
     time--
 }
+//function to increment the goal of home team
+let h = document.getElementById("shome");
+let i =0;
+function homefunc()
+{
+    i += 1;
+    h.innerText = i
+}
+//function to increment the goal of guest team
+let a = document.getElementById("saway");
+let j =0;
+function awayfunc()
+{
+    j += 1;
+    a.innerText = j
+}

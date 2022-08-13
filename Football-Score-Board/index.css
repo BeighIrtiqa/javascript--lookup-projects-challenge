@@ -170,9 +170,6 @@ display: flex;
    position: relative;
    z-index: 1;
 }
-
-
-
 #timer{
     width: 191.6px;
     border:1px solid;

@@ -15,7 +15,7 @@
                     HOME
                 </div>
                 <div class="scorehome">
-                    <div class="scoreboxh">
+                    <div class="scoreboxh" id="shome">
                         0
                     </div>
                    
@@ -26,7 +26,7 @@
                     AWAY
                 </div>
                 <div class="scoreaway">
-                    <div class="scoreboxa">
+                    <div class="scoreboxa" id="saway">
                         0
                     </div>
                 </div>
@@ -35,11 +35,11 @@
     
         <div class="container2">
             <div class="btn-home">
-                <button id="incr-home" style="--clr:#1e9bff"><span>GOAL</span></button>
+                <button id="incr-home" style="--clr:#1e9bff" onclick="homefunc()"><span>GOAL</span></button>
             </div>
-            <div id="timer">45:00</div>
+            <div id="timer">0:00</div>
             <div class="btn-away">
-                <button id="incr-away" style="--clr:#1e9bff"><span>GOAL</span></button>
+                <button id="incr-away" style="--clr:#1e9bff" onclick="awayfunc()"><span>GOAL</span></button>
             </div>
         </div> 
 
