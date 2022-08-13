@@ -99,13 +99,78 @@ display: flex;
 .btn-home{
     width: 191.6px;
     border:1px solid;
+    background: #1B244A;
+}
+
+#incr-home{
+    margin-top: 40px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    background:#1B244A;
+    color:#fff;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding:10px 30px;
+    transition: 0.5s;
+    border-color:white;
+    border-collapse: none;
+}
+#incr-home:hover
+{
+    
+    color:var(--clr) ;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+    border-color: var(--clr);
+    border-collapse: none;
+
+}
+#incr-home span
+{
+   position: relative;
+   z-index: 1;
 }
 .btn-away{
     width: 191.6px;
     border:1px solid;
+    background: #1B244A;
+}
+
+#incr-away{
+    margin-top: 40px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    background:#1B244A;
+    color:#fff;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding:10px 30px;
+    transition: 0.5s;
+    border-color:white;
+    border-collapse: none;
+}
+
+
+#incr-away:hover
+{
+    
+    color:var(--clr) ;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+    border-color: var(--clr);
+    border-collapse: none;
+
+}
+#incr-away span
+{
+   position: relative;
+   z-index: 1;
 }
 .timer{
     width: 191.6px;
     border:1px solid;
 }
-
