@@ -12,6 +12,7 @@ body{
     height: 385px;
     background: #1B244A;
     margin: 10%;
+    margin-left: 25%;
 }
 .container1{
     display: flex;
@@ -26,7 +27,7 @@ body{
 }
 .txthome{
     height: 60px;
-    border: 1px solid;
+    border: none;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
@@ -61,7 +62,7 @@ color: #F94F6D;
 }
 .txtaway{
     height: 60px;
-    border: 1px solid;
+    border: none;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
@@ -91,14 +92,14 @@ color: #F94F6D;
 
 
 .container2{
-background: pink;
+background: #1B244A;
 height: 145px;
 display: flex;
 }
 
 .btn-home{
     width: 191.6px;
-    border:1px solid;
+    border:none;
     background: #1B244A;
 }
 
@@ -134,7 +135,7 @@ display: flex;
 }
 .btn-away{
     width: 191.6px;
-    border:1px solid;
+    border:none;
     background: #1B244A;
 }
 
@@ -172,7 +173,7 @@ display: flex;
 }
 #timer{
     width: 191.6px;
-    border:1px solid;
+    border:none;
     background: #1B244A;
     justify-content: center;
     padding-top: 10px;
