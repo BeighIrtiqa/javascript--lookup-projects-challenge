@@ -9,6 +9,7 @@ function updateCountdown() {
     let seconds = time % 60;
     seconds = seconds < 10 ? '0' + seconds :seconds
     countdownEl.innerHTML = `${minutes}:${seconds}`
+    //to stop the timer to go into the negative loop
     if(time > 0)
     {
         time--

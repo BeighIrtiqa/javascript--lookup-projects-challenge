@@ -5,27 +5,34 @@
 }
 body{
     justify-content: center;
+    background-image: url("media/stadium.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
 }
 .main{
     position: relative;
     width: 575px;
     height: 385px;
     background: #1B244A;
+
     margin: 10%;
     margin-left: 25%;
 }
+
+/* container 1 style */
 .container1{
     display: flex;
     background: #1B244A;
     height: 240px;
 }
-.home{
+.home,.away{
     width:287.5px;
     background: #1B244A;
 
     
 }
-.txthome{
+.txthome, .txtaway{
     height: 60px;
     border: none;
     font-family: 'Verdana';
@@ -38,7 +45,7 @@ body{
     padding-top: 10px;
     background: #1B244A;
 }
-.scoreboxh{
+.scoreboxh, .scoreboxa{
     position:absolute;
     width: 159px;
     height: 120px;
@@ -56,54 +63,20 @@ color: #F94F6D;
 
 }
 
-.away{
-    width: 287.5px;
-    background: #1B244A;
-}
-.txtaway{
-    height: 60px;
-    border: none;
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 36px;
-    text-align: center;
-    color: #EEEEEE;
-    padding-top: 10px;
-    background: #1B244A;
-}
-.scoreboxa{
-    position: absolute;
-    width: 159px;
-    height: 120px;
-    margin-left: 60px;
-    margin-top: 30px;
-    background: black;
-
-font-family: 'Cursed Timer ULiL';
-font-style: normal;
-font-weight: 400;
-font-size: 90px;
-line-height: 127px;
-text-align: center;
-color: #F94F6D;
-}
-
-
+/* container 2 style */
 .container2{
 background: #1B244A;
 height: 145px;
 display: flex;
 }
 
-.btn-home{
+.btn-home,.btn-away{
     width: 191.6px;
     border:none;
     background: #1B244A;
 }
 
-#incr-home{
+#incr-home, #incr-away{
     margin-top: 40px;
     margin-left: 20px;
     justify-content: center;
@@ -120,51 +93,24 @@ display: flex;
 }
 #incr-home:hover
 {
-    
     color:var(--clr) ;
     letter-spacing: 0.25em;
     box-shadow: 0 0 35px var(--clr);
     border-color: var(--clr);
     border-collapse: none;
-
 }
 #incr-home span
 {
    position: relative;
    z-index: 1;
 }
-.btn-away{
-    width: 191.6px;
-    border:none;
-    background: #1B244A;
-}
-
-#incr-away{
-    margin-top: 40px;
-    margin-left: 20px;
-    justify-content: center;
-    align-items: center;
-    background:#1B244A;
-    color:#fff;
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    font-weight: 400;
-    padding:10px 30px;
-    transition: 0.5s;
-    border-color:white;
-    border-collapse: none;
-}
-
-
 #incr-away:hover
-{
-    
+{    
     color:var(--clr) ;
     letter-spacing: 0.25em;
     box-shadow: 0 0 35px var(--clr);
     border-color: var(--clr);
     border-collapse: none;
-
 }
 #incr-away span
 {
@@ -187,3 +133,13 @@ text-align: center;
 color: #F94F6D;
 
 }
+
+
+
+
+
+
+
+
+
+
