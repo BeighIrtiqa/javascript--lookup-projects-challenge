@@ -10,3 +10,5 @@ This repository contains all the exciting javascript challenge projects
       This Score board gives the number of Goals hit by each team. There are two teams playing , the HOME team and the AWAY/GUEST team
       This Score board also has a timer of 45 minutes which stops after 1 game slot
       (Here for conviennce I have set the timer to just 1 minute) 
+3: BLACKJACK GAME
+      This is a basic balckjack game.
