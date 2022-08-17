@@ -21,7 +21,6 @@
     height: 100%;
     backface-visibility: hidden;
     border-radius: 20px;
-    /* background:rgb(125, 245, 133); */
     background-image: url(images/holo.jpg);
     background-size: contain;
 }
