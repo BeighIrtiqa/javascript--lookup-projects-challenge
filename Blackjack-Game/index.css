@@ -1,8 +1,19 @@
+
+body{
+    background-image: url(images/𝑯𝒆𝒂𝒅.jpg)  ;
+    background-size: contain;
+    
+   
+}
+
 .container{
+    
     position: relative;
-    width: 250px;
-    height: 320px;
-    /* background: green; */
+    width: 350px;
+    height: 420px;
+    margin-top: 7%;
+    margin-left: 30%;
+    
 }
 .card{
     position: absolute;
@@ -10,7 +21,7 @@
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
-    /* background:yellow; */
+    
 }
 .card:hover{
     transform: rotateY(180deg);
@@ -30,7 +41,30 @@
     height: 100%;
     backface-visibility: hidden;
     border-radius: 20px;
-    background:rgb(187, 193, 187);
+    /* background:url(images/electro.jpg); */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
     transform: rotateY(180deg);
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background:rgb(18, 18, 103);
 }
-  
+.btn-game , .btn-new{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    /* margin-left: 20%; */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background: white;
+    color: blue;
+    border: none;
+    border-radius: 20px;
+    /* display: flex; */
+    font-weight: bolder;
+}
